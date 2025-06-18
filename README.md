@@ -28,6 +28,10 @@ kubectl run -it alpine-image sh
 kubectl run color-api --image=accyln/color-api:1.0.0  
 kubectl run color-api --image=accyln/color-api:1.0.0 --dry-run=client -o yaml  
 
+kubectl get contexts  
+kubectl config use-context rancher-desktop  
+kubectl config use-context minikube  
+
 kubectl get pods
 
 kubectl describe pod \<podname\>
