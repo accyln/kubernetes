@@ -80,3 +80,8 @@ helm history \<releaseName\>  #this brings revision info
 helm rollback \<releaseName\> 1  #revision number
 
 helm get manifest \<releaseName\>
+
+
+## **--------minikube--------**
+
+minikube service \<svcname\> - url  #opens a tunnel and givec url for accessing to servcice
